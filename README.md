@@ -5,7 +5,7 @@ let numberOfBots = prompt("How many Bots: ")
 let botsToJoin;
 
 //Credit
-console.log('%c Created by Sean v  :D', 'background: #222; color: yellow');
+console.log('%c Created by RattleSnakeVenm  :D', 'background: #222; color: yellow');
 // Making a for loop for flood
 for (botsToJoin = 0; botsToJoin < numberOfBots; botsToJoin++)
   fetch("https://api.blooket.com/api/firebase/join", {
